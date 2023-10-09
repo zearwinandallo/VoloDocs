@@ -1,0 +1,572 @@
+{
+  "items": [
+    {
+      "text": "Getting Started",
+      "path": "getting-started.md",
+      "items": [
+        {
+          "text": "1: Setup Development Environment",
+          "path": "getting-started-setup-environment.md"
+        },
+        {
+          "text": "2: Creating a New Solution",
+          "path": "getting-started-create-solution.md"
+        },
+        {
+          "text": "3: Running the Solution",
+          "path": "getting-started-running-solution.md"
+        }
+      ]
+    },
+    {
+      "text": "Tutorials",
+      "items": [
+        {
+          "text": "Web Application Development",
+          "items": [
+            {
+              "text": "1: Creating the Server Side",
+              "path": "tutorials/book-store/part-1.md"
+            },
+            {
+              "text": "2: The Book List Page",
+              "path": "tutorials/book-store/part-2.md"
+            },
+            {
+              "text": "3: Creating, Updating and Deleting Books",
+              "path": "tutorials/book-store/part-3.md"
+            },
+            {
+              "text": "4: Integration Tests",
+              "path": "tutorials/book-store/part-4.md"
+            },
+            {
+              "text": "5: Authorization",
+              "path": "tutorials/book-store/part-5.md"
+            },
+            {
+              "text": "6: Authors: Domain layer",
+              "path": "tutorials/book-store/part-6.md"
+            },
+            {
+              "text": "7: Authors: Database Integration",
+              "path": "tutorials/book-store/part-7.md"
+            },
+            {
+              "text": "8: Authors: Application Layer",
+              "path": "tutorials/book-store/part-8.md"
+            },
+            {
+              "text": "9: Authors: User Interface",
+              "path": "tutorials/book-store/part-9.md"
+            },
+            {
+              "text": "10: Book to Author Relation",
+              "path": "tutorials/book-store/part-10.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Guides",
+      "items": [
+        {
+          "text": "Customizing the Modules",
+          "path": "guides/customizing-modules.md"
+        },        
+        {
+          "text": "Migrating to OpenIddict",
+          "path": "migration-guides/openIddict-step-by-step.md"
+        }        
+      ]
+    },
+    {
+      "text": "Samples",
+      "items": [
+        {
+          "text": "All Samples",
+          "path": "samples/index.md"
+        },
+        {
+          "text": "Easy CRM",
+          "path": "samples/easy-crm.md"
+        }
+      ]
+    },
+    {
+      "text": "Startup Templates",
+      "path": "startup-templates/index.md",
+      "items": [
+        {
+          "text": "Application Template",
+          "path": "startup-templates/application/index.md",
+          "items": [
+            {
+              "text": "Creating Solution",
+              "path": "startup-templates/application/create-solution.md"
+            },
+            {
+              "text": "Solution Structure",
+              "path": "startup-templates/application/solution-structure.md"
+            },
+            {
+              "text": "Mobile",
+              "items": [
+                {
+                  "text": "MAUI",
+                  "path": "getting-started-maui.md"
+                },
+                {
+                  "text": "React Native",
+                  "path": "getting-started-react-native.md"
+                }
+              ]
+            },
+            {
+              "text": "Deployment",
+              "path": "startup-templates/application/deployment.md",
+              "items": [
+                {
+                  "text": "Docker Deployment",
+                  "path": "startup-templates/application/deployment-docker-compose.md"
+                },
+                {
+                  "text": "Azure Deployment",
+                  "items": [
+                    {
+                      "text": "Deploy to Azure Web App Service",
+                      "path": "startup-templates/application/azure-deployment/azure-deployment.md"
+                    },
+                    {
+                      "text": "Creating an Azure Web App Service Environment",
+                      "path": "startup-templates/application/azure-deployment/step1-create-azure-resources.md"
+                    },
+                    {
+                      "text": "Customizing the Configuration of Your ABP Application",
+                      "path": "startup-templates/application/azure-deployment/step2-configuration-application.md"
+                    },
+                    {
+                      "text": "Deploying Application With GitHub Actions",
+                      "path": "startup-templates/application/azure-deployment/step3-deployment-github-action.md"
+                    }
+                  ]
+                },
+                {
+                  "text": "IIS Deployment",
+                  "path": "startup-templates/application/deployment-iis.md"
+                },
+                {
+                  "text": "IdentityServer Deployment",
+                  "path": "guides/identityserver-deployment.md"
+                },
+                {
+                  "text": "OpenIddict Deployment",
+                  "path": "guides/openiddict-deployment.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Application (Single Layer) Template",
+          "path": "startup-templates/application-single-layer/index.md",
+          "items": [
+            {
+              "text": "Creating Solution",
+              "path": "startup-templates/application-single-layer/create-solution.md"
+            },
+            {
+              "text": "Solution Structure",
+              "path": "startup-templates/application-single-layer/solution-structure.md"
+            }
+          ]
+        },
+        {
+          "text": "Microservice Template",
+          "items": [
+            {
+              "text": "Creating a New Microservice Solution",
+              "path": "startup-templates/microservice/create-new-microservice.md"
+            },
+            {
+              "text": "Overall",
+              "path": "startup-templates/microservice/index.md"
+            },
+            {
+              "text": "Get Started",
+              "path": "startup-templates/microservice/get-started.md"
+            },
+            {
+              "text": "Applications",
+              "path": "startup-templates/microservice/applications.md"
+            },
+            {
+              "text": "Services",
+              "path": "startup-templates/microservice/microservices.md"
+            },
+            {
+              "text": "Gateways",
+              "path": "startup-templates/microservice/gateways.md"
+            },
+            {
+              "text": "Infrastructure",
+              "path": "startup-templates/microservice/infrastructure.md"
+            },
+            {
+              "text": "Database Migrations",
+              "path": "startup-templates/microservice/database-migrations.md"
+            },
+            {
+              "text": "Tye Integration",
+              "path": "startup-templates/microservice/tye-integration.md"
+            },
+            {
+              "text": "Helm Deployment",
+              "path": "startup-templates/microservice/helm-deployment.md"
+            },
+            {
+              "text": "Guides",
+              "items": [
+                {
+                  "text": "Adding a new Microservice",
+                  "path": "startup-templates/microservice/add-microservice.md"
+                },
+                {
+                  "text": "Communication Between Microservices",
+                  "path": "startup-templates/microservice/interservice-communication.md"
+                },
+                {
+                  "text": "Using gRPC",
+                  "path": "startup-templates/microservice/using-grpc.md"
+                },
+                {
+                  "text": "Change Microservice project to use MongoDB Provider",
+                  "path": "guides/microservice-mongodb.md"
+                },
+                {
+                  "text": "Extracting a Module as a Microservice",
+                  "path": "guides/extracting-module-as-microservice.md"
+                },
+                {
+                  "text": "Add Module to Existing Microservices",
+                  "path": "guides/add-module-to-microservice.md"
+                },
+                {
+                  "text": "Migrating to OpenIdDict",
+                  "path": "migration-guides/openIddict-microservice.md"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Module Template",
+          "path": "startup-templates/module/index.md",
+          "items": [
+            {
+              "text": "Creating a New Module Solution",
+              "path": "startup-templates/module/creating-a-new-solution.md"
+            },
+            {
+              "text": "Solution Structure",
+              "path": "startup-templates/module/solution-structure.md"
+            },
+            {
+              "text": "Creating a New ABP solution via ABP Suite",
+              "path": "abp-suite/create-module-solution.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Application Modules",
+      "items": [
+        {
+          "text": "Overall",
+          "path": "modules/index.md"
+        },
+        {
+          "text": "Account",
+          "path": "modules/account.md",
+          "items": [
+            {
+              "text": "Authority Delegation",
+              "path": "modules/account/authority-delegation.md"
+            },
+            {
+              "text": "Tenant & User Impersonation",
+              "path": "modules/account/impersonation.md"
+            },
+            {
+              "text": "Linked Accounts",
+              "path": "modules/account/linkedaccounts.md"
+            }
+          ]
+        },
+        {
+          "text": "Audit Logging",
+          "path": "modules/audit-logging.md"
+        },
+        {
+          "text": "Chat",
+          "path": "modules/chat.md"
+        },
+        {
+          "text": "CMS Kit Pro",
+          "path": "modules/cms-kit/index.md"
+        },
+        {
+          "text": "File Management",
+          "path": "modules/file-management.md"
+        },
+        {
+          "text": "Forms",
+          "path": "modules/forms.md"
+        },
+        {
+          "text": "GDPR",
+          "path": "modules/gdpr.md"
+        },
+        {
+          "text": "Identity",
+          "path": "modules/identity.md",
+          "items": [
+            {
+              "text": "Import External Users",
+              "path": "modules/identity/import-external-users.md"
+            },
+            {
+              "text": "LDAP Login",
+              "path": "modules/identity/ldap.md"
+            },
+            {
+              "text": "OAuth Login",
+              "path": "modules/identity/oauth-login.md"
+            },
+            {
+              "text": "Periodic Password Change (Password Aging)",
+              "path": "modules/identity/periodic-password-change.md"
+            },
+            {
+              "text": "Two Factor Authentication",
+              "path": "modules/identity/two-factor-authentication.md"
+            }
+          ]
+        },
+        {
+          "text": "Identity Server",
+          "path": "modules/identity-server.md"
+        },
+        {
+          "text": "OpenIddict",
+          "path": "modules/openiddict.md"
+        },
+        {
+          "text": "Language Management",
+          "path": "modules/language-management.md"
+        },
+        {
+          "text": "Payment",
+          "path": "modules/payment.md"
+        },
+        {
+          "text": "SaaS",
+          "path": "modules/saas.md"
+        },
+        {
+          "text": "Text Template Management",
+          "path": "modules/text-template-management.md"
+        },
+        {
+          "text": "Twilio SMS",
+          "path": "modules/twilio-sms.md"
+        },
+        {
+          "text": "Common",
+          "items": [
+            {
+              "text": "Database Tables",
+              "path": "modules/database-tables.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "UI Themes",
+      "path": "themes/index.md",
+      "items": [
+        {
+          "text": "Lepton",
+          "path": "themes/lepton/index.md",
+          "items": [
+            {
+              "text": "Customizing Lepton Theme",
+              "path": "themes/lepton/customizing-lepton-theme.md"
+            }
+          ]
+        },
+        {
+          "text": "LeptonX",
+          "path": "themes/lepton-x/index.md",
+          "items": [
+            {
+              "text": "MVC",
+              "path": "themes/lepton-x/mvc.md"
+            },
+            {
+              "text": "Angular",
+              "path": "themes/lepton-x/angular.md"
+            },
+            {
+              "text": "Blazor",
+              "path": "themes/lepton-x/blazor.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Angular UI",
+      "items": [
+        {
+          "text": "Customization",
+          "items": [
+            {
+              "text": "Modifying the Menu",
+              "path": "ui/angular/modifying-the-menu.md"
+            },
+            {
+              "text": "Manage Profile Page Tabs",
+              "path": "ui/angular/manage-profile-page-tabs.md"
+            }
+          ]
+        },
+        {
+          "text": "Components",
+          "items": [
+            {
+              "text": "Lookup Components",
+              "path": "ui/angular/lookup-components.md"
+            },
+            {
+              "text": "Entity Filters",
+              "path": "ui/angular/entity-filters.md"
+            },
+            {
+              "text": "Password Complexity Indicator",
+              "path": "ui/angular/password-complexity-indicator-component.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "ABP Suite",
+      "items": [
+        {
+          "text": "Overall",
+          "path": "abp-suite/index.md"
+        },
+        {
+          "text": "How to Install",
+          "path": "abp-suite/how-to-install.md"
+        },
+        {
+          "text": "How to Start",
+          "path": "abp-suite/how-to-start.md"
+        },
+        {
+          "text": "Adding Existing ABP Solution",
+          "path": "abp-suite/add-solution.md"
+        },
+        {
+          "text": "Creating new ABP solution",
+          "path": "abp-suite/create-solution.md"
+        },
+        {
+          "text": "Generating CRUD Page",
+          "path": "abp-suite/generating-crud-page.md",
+          "items": [
+            {
+              "text": "Creating Many-To-Many Relationship",
+              "path": "abp-suite/creating-many-to-many-relationship.md"
+            },
+            {
+              "text": "Generating from an Existing Database",
+              "path": "abp-suite/generating-entities-from-an-existing-database-table.md"
+            }
+          ]
+        },
+        {
+          "text": "Accessing Source Code of Modules",
+          "path": "abp-suite/source-code.md"
+        },
+        {
+          "text": "Updating Packages",
+          "path": "abp-suite/updating-packages.md"
+        },
+        {
+          "text": "Configuration",
+          "path": "abp-suite/configuration.md"
+        },
+        {
+          "text": "Editing Templates",
+          "path": "abp-suite/editing-templates.md"
+        },
+        {
+          "text": "How to uninstall",
+          "path": "abp-suite/how-to-uninstall.md"
+        }
+      ]
+    },
+    {
+      "text": "Release Information",
+      "items": [
+        {
+          "text": "Release Notes",
+          "path": "release-notes.md"
+        },
+        {
+          "text": "Full Change Logs",
+          "path": "https://commercial.abp.io/releases"
+        },
+        {
+          "text": "Road Map",
+          "path": "road-map.md"
+        },
+        {
+          "text": "Migration Guides",
+          "path": "migration-guides/index.md"
+        }
+      ]
+    },
+    {
+      "text": "FAQ",
+      "path": "faq.md"
+    },
+    {
+      "text": "Others",
+      "items": [
+        {
+          "text": "ABP Framework vs ABP Commercial",
+          "path": "abp-framework-vs-abp-commercial.md"
+        },
+        {
+          "text": "ABP Commercial vs ASP.NET Zero",
+          "path": "aspnet-zero-vs-abp-commercial.md"
+        },
+        {
+          "text": "Why ABP.IO Platform?",
+          "path": "why-abp-io-platform.md"
+        },
+        {
+          "text": "Penetration Security Test Report",
+          "path": "others/penetration-test-report.md"
+        }
+      ]
+    }
+  ]
+}

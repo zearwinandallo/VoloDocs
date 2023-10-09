@@ -1,0 +1,2 @@
+This document has been [moved to here](https://docs.abp.io/en/abp/latest/UI/Angular/Page-Toolbar-Extensions).
+

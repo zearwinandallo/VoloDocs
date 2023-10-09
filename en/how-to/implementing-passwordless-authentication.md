@@ -1,0 +1,2 @@
+# Implementing Passwordless Authentication in ASP.NET Core Identity
+This document has been moved to https://community.abp.io/articles/implementing-passwordless-authentication-with-asp.net-core-identity-c25l8koj

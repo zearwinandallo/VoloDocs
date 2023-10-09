@@ -1,0 +1,1 @@
+This document has been [moved here](https://docs.abp.io/en/abp/latest/UI/Angular/Dynamic-Form-Extensions).
